@@ -72,3 +72,35 @@ Social Media Link
 	- Twitter (X)
 	- Youtube
 	- Tiktok
+
+
+
+
+
+DDL
+	- CREATE
+		
+		CREATE DATABASE demo_db;
+		
+		CREATE TABLE category (
+		    cid INT PRIMARY KEY AUTO_INCREMENT,
+		    c_name VARCHAR(255) NOT NULL
+		);
+
+	- ALTER
+	- DROP
+DML
+	- INSERT
+		INSERT INTO `category`(`cid`, `c_name`) VALUES ('value-1','value-2')
+	- UPDATE
+		UPDATE `category` SET `c_name`='value-1' WHERE `cid`= 1
+	- DELECT
+		DELETE FROM `category` WHERE `cid`= 1
+	- SELECT
+		SELECT * FROM `category` WHERE `cid`= 1
+		SELECT `cid`, `c_name` FROM `category` WHERE `cid`= 1
+
+
+UPDATE `category` 
+SET `c_name` = 'Keyboard' 
+WHERE `category`.`cid` = 5;
