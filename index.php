@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Portfolio</title>
+  <title>John Smith</title>
   <!-- Bootstrap 5.3 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Custom CSS -->
@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
       <div class="container">
         <!-- Brand -->
-        <a class="navbar-brand fw-bold" href="#">PERSONAL</a>
+        <a class="navbar-brand fw-bold" href="index.php">John Smith</a>
 
         <!-- Toggle Button -->
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -80,7 +80,7 @@
 
           <div class="d-flex justify-content-center justify-content-md-start gap-3">
             <a href="#portfolio" class="btn btn-dark px-4 py-2 rounded-0">View My Works</a>
-            <a href="contact.html" class="btn btn-outline-dark px-4 py-2 d-flex align-items-center gap-2 rounded-0">
+            <a href="#contact" class="btn btn-outline-dark px-4 py-2 d-flex align-items-center gap-2 rounded-0">
               Contact Me
               <i class="fa-solid fa-download"></i>
             </a>
@@ -117,7 +117,7 @@
         <div class="col-lg-8 col-md-7">
           <p class="fs-5 text-dark">
             Hi, I'm
-            <strong class="text-decoration-underline">PERSONAL Smith</strong><br />
+            <strong class="text-decoration-underline">John Smith</strong><br />
             a passionate Web Developer and UI/UX Designer. I enjoy creating
             interactive, user-friendly websites and bringing creative ideas to
             life.
@@ -129,7 +129,7 @@
           <div class="d-inline-flex flex-column align-items-center">
             <!-- Circle -->
             <div class="rounded-circle d-flex justify-content-center align-items-center shadow bg-warning about-circle">
-              <span class="fw-bold text-dark display-1 lh-1">22</span>
+              <span class="fw-bold text-dark display-1 lh-1">7</span>
             </div>
 
             <!-- Experience Text -->
@@ -143,7 +143,7 @@
         <div class="row text-center text-md-start gy-4">
           <div class="col-md-3 col-sm-6">
             <h5 class="fw-bold text-dark">Name</h5>
-            <p class="mb-0 text-dark">PERSONAL Smith</p>
+            <p class="mb-0 text-dark">John Smith</p>
           </div>
           <div class="col-md-3 col-sm-6">
             <h5 class="fw-bold text-dark">Email</h5>
@@ -759,7 +759,7 @@
           <p class="mb-0">
             © 2021
             <a href="https://your-PERSONAL-link.com" target="_blank" class="text-warning text-decoration-none">
-              PERSONAL
+              John Smith
             </a>. All rights reserved.
           </p>
         </div>
@@ -768,8 +768,8 @@
         <div class="col-12 col-md-6 text-center text-md-end">
           <p class="mb-0">
             Designed by
-            <a href="https://harnish-design.com" target="_blank" class="text-warning text-decoration-none">
-              Harnish Design
+            <a href="#" target="_blank" class="text-warning text-decoration-none">
+              John Smith
             </a>
           </p>
         </div>

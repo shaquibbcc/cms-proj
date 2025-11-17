@@ -32,7 +32,7 @@ window.addEventListener("scroll", () => {
 // #endregion
 
 // #region Typing Effect Hero section
-const texts = ["CALLUM SMITH", "Web Developer", "Freelancer"];
+const texts = ["JOHN SMITH", "Web Designer", "Web Developer", "Freelancer"];
 const typingElement = document.getElementById("typing");
 const cursor = document.querySelector(".cursor");
 
